@@ -1,9 +1,12 @@
 const express = require("express");
+const app = express();
 const PORT = 3000;
 
-const app = express();
+app.use(express.json());
+app.use(express.urlencoded());
 
 app.get("/", function(req, res) {
+  console.log(req.body);
   res.send("Welcome to the Webhook Server!");
 });
 
