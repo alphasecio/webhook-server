@@ -1,0 +1,14 @@
+{
+  "name": "webhook-server",
+  "version": "1.0.0",
+  "description": "A sample webhook server using Node.js and Express.",
+  "main": "server.js",
+  "author": "alphasec",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
